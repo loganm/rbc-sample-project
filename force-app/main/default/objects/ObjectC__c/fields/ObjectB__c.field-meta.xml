@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>ObjectB__c</fullName>
+    <type>Lookup</type>
+    <description>Object B Lookup</description>
+    <inlineHelpText/>
+    <securityClassification>Internal</securityClassification>
+    <label>Object B</label>
+    <referenceTo>ObjectB__c</referenceTo>
+    <relationshipLabel>Object C's</relationshipLabel>
+    <relationshipName>ObjectCs</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject>
+    <pluralLabel>Object C's</pluralLabel>
+    <fullName>ObjectC__c</fullName>
+    <description>Object C</description>
+    <enableHistory>false</enableHistory>
+    <enableActivities>false</enableActivities>
+    <enableSearch>false</enableSearch>
+    <enableFeeds>false</enableFeeds>
+    <enableReports>false</enableReports>
+    <enableBulkApi>false</enableBulkApi>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <sharingModel>ReadWrite</sharingModel>
+    <nameField>
+        <type>Text</type>
+        <label>Object C Name</label>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Object C</label>
+</CustomObject>

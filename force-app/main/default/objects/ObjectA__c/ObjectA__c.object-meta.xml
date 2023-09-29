@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject>
+    <pluralLabel>Object A's</pluralLabel>
+    <fullName>ObjectA__c</fullName>
+    <description>Object A</description>
+    <enableHistory>false</enableHistory>
+    <enableActivities>false</enableActivities>
+    <enableSearch>false</enableSearch>
+    <enableFeeds>false</enableFeeds>
+    <enableReports>false</enableReports>
+    <enableBulkApi>false</enableBulkApi>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <sharingModel>ReadWrite</sharingModel>
+    <nameField>
+        <type>Text</type>
+        <label>Object A Name</label>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Object A</label>
+</CustomObject>
