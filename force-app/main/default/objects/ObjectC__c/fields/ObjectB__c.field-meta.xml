@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomField>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>ObjectB__c</fullName>
-    <type>Lookup</type>
+    <deleteConstraint>SetNull</deleteConstraint>
     <description>Object B Lookup</description>
-    <inlineHelpText/>
-    <securityClassification>Internal</securityClassification>
+    <externalId>false</externalId>
     <label>Object B</label>
     <referenceTo>ObjectB__c</referenceTo>
-    <relationshipLabel>Object C's</relationshipLabel>
+    <relationshipLabel>Object C&apos;s</relationshipLabel>
     <relationshipName>ObjectCs</relationshipName>
-    <deleteConstraint>SetNull</deleteConstraint>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
 </CustomField>

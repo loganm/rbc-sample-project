@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>RbcData</application>
+        <visible>true</visible>
+    </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
         <field>ObjectB__c.ObjectA__c</field>
@@ -11,7 +15,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>RBC Objects</label>
+    <label>RBC Data</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -39,4 +43,16 @@
         <object>ObjectC__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>ObjectA__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>ObjectB__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>ObjectC__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
