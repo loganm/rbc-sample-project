@@ -1,0 +1,33 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ObjectA__c",
+                "referenceId": "ObjectA__cRef1"
+            },
+            "Name": "A1",
+            "ObjectBs__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "ObjectB__c",
+                            "referenceId": "ObjectB__cRef1"
+                        },
+                        "Name": "B1",
+                        "ObjectCs__r": {
+                            "records": [
+                                {
+                                    "attributes": {
+                                        "type": "ObjectC__c",
+                                        "referenceId": "ObjectC__cRef1"
+                                    },
+                                    "Name": "C1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

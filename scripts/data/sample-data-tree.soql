@@ -1,0 +1,1 @@
+SELECT Id, Name, (SELECT Id, Name, ObjectA__c, (SELECT Id, Name, ObjectB__c FROM ObjectCs__r) FROM ObjectBs__r) FROM ObjectA__c
